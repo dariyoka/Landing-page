@@ -17,7 +17,7 @@ body{
 }
 .quote,
 .row{
-    padding:0 250px;
+    padding:0 300px;
     max-width:100%;
 }
 .main{
@@ -75,8 +75,10 @@ footer{
 
 .text p,
 .links a,
-footer{
+footer,
+.action_text p{
    font-size:18px;
+   font-weight:300;
    color:#e5e7eb;
 }
 
@@ -139,4 +141,18 @@ footer{
 .quote h4{
     align-self:flex-end;
     padding-top: 10px;
+}
+.reminder{
+    padding-top:70px;
+    padding-bottom: 70px;
+}
+.notification{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:50px 0 50px 0;
+    
+}
+.action_text p{
+    color:#F9FAF8;
 }
