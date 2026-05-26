@@ -38,6 +38,9 @@ body{
 }
 footer{
     height:90px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .header{
     display:flex;
@@ -71,7 +74,8 @@ footer{
 }
 
 .text p,
-.links a{
+.links a,
+footer{
    font-size:18px;
    color:#e5e7eb;
 }
