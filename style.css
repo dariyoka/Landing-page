@@ -11,8 +11,13 @@ body{
 }
 .main,
 .header,
-.row{
+.reminder{
     padding:0 200px;
+    max-width:100%;
+}
+.quote,
+.row{
+    padding:0 250px;
     max-width:100%;
 }
 .main{
@@ -43,10 +48,6 @@ footer{
 .header h1{
     color:#F9FAF8;
     font-size:24px;
-}
-
-.quote{
-    background-color: #e5e7eb;
 }
 .notification,
 .btn{
@@ -98,7 +99,7 @@ footer{
 }
 .elements{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap:50px;
 }
 .element{
@@ -117,4 +118,21 @@ footer{
     font-size:18px;
     color:#4B5563;
     max-width: 100%;
+}
+.quote{
+    background-color: #e5e7eb;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#1F2937;
+}
+.quote p{
+    font-size:36px;
+    font-weight:300;
+}
+.quote h4{
+    align-self:flex-end;
+    padding-top: 10px;
 }
